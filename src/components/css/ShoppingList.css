@@ -1,0 +1,6 @@
+.shoppingList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #52f69a;
+}
