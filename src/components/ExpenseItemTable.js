@@ -16,7 +16,7 @@ function ExpenseItemTable(props) {
 
                 <div className="container">
                     <div className="row">
-                        <div> </div>
+                        <div><strong> x {props.count}</strong></div>
                     </div>
 
                     <div className="row">
