@@ -16,7 +16,9 @@ function ExpenseItemTable(props) {
 
                 <div className="container">
                     <div className="row">
-                        <div><strong> x {props.count}</strong></div>
+                        {props.isCart && (
+                            <strong> x {props.count}</strong>
+                        )}
                     </div>
 
                     <div className="row">
