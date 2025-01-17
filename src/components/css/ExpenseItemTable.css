@@ -72,6 +72,12 @@ button:hover {
     transform: scale(1.05);
 }
 
+strong{
+    font-size: x-large;
+    font-weight: bold;
+    color: darkred;
+}
+
 @media (min-width: 580px) {
     .expense-item__title {
         flex-direction: row;
